@@ -1,0 +1,49 @@
+/* Style général */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.page-container {
+  max-width: 1000px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres */
+.page-container h1,
+.page-container h2 {
+  color: #0a5c5e;
+  margin-bottom: 15px;
+}
+
+/* Paragraphes */
+.page-container p {
+  margin-bottom: 15px;
+}
+
+/* Liens */
+.page-container a {
+  color: #0a5c5e;
+  text-decoration: none;
+}
+
+.page-container a:hover {
+  text-decoration: underline;
+  
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-container {
+    padding: 20px;
+  }
+}
